@@ -3,7 +3,7 @@ import requests
 from dotenv import load_dotenv
 import os 
 
-load_dotenv(overide=True)
+load_dotenv(override=True)
 
 API_URL = os.environ.get("API_URL")
 
